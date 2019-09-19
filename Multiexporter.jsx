@@ -55,7 +55,7 @@ function main() {
             layer.visible = true;  
   
   
-            var file = new File(folder.fsName + '/' +filename+ '-' + k +".png");  
+            var file = new File(folder.fsName + '/' + layer.name + '-' + k +".png");  
   
             document.exportFile(file,ExportType.PNG24,options);  
             layer.visible = false;  
